@@ -216,12 +216,13 @@
                         <content ID="Instruction2"><content ID="Instruction2_type">Patient Education:</content> <content ID="Instruction2_desc">Resources and instructions provided during visit.</content></content>
                     </text>
                     <entry>
-                        <observation classCode="OBS" moodCode="INT">
+                        <observation classCode="OBS" moodCode="GOL">
                             <!-- Plan of Care Activity Observation -->
                             <!-- This template is most similar to the GOAL observation templating in C-CDA R2.0 -->
                             <!-- The moodCode is established as GOL for Goals.-->
                             <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
                             <id root="2a620155-9d11-439e-92b3-5d9815ff4dd3"/>
+                            <!-- SNOMED codes is from Procedure hierarchy so not perfect fit but following test data -->
                             <code code="406162001" displayName="asthma management"
                                 codeSystem="2.16.840.1.113883.6.96"
                                 codeSystemName="SNOMED CT">
