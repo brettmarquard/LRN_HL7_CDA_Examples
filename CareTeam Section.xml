@@ -10,6 +10,17 @@
                         <content ID="CARETEAM_1_LONGITUDINAL">Longitudinal Care Team<br/>
                         From 1996 to present
                         <table>
+                             <thead>
+                                <tr>
+                                    <th>Role</th>     
+                                    <th>Name</th>
+                                    <th>Speciality</th>
+                                    <th>NPI</th>
+                                    <th>Telecom</th>
+                                    <th>Dates on Care Team</th>
+                                </tr>
+                              </thead>                                                          
+                                                
                             <tbody>
                                 <tr>
                                     <td>PCP</td>
